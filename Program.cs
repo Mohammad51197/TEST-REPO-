@@ -10,6 +10,8 @@
             Console.WriteLine("Hello! My Name is Zandar :D");
             Console.WriteLine("My name is George");
             Console.WriteLine("Hello comrades, my name is Caleb");
+            Thread.Sleep(1000);
+            Console.Clear ();
 
 
             string num1, num2, temp;
@@ -26,6 +28,9 @@
             Console.WriteLine($"{V1} minus {V2} equals {V1 - V2} ");
             Console.WriteLine($"{V1} times {V2} equals {V1*V2} ");
             Console.WriteLine($"{V1} divide by {V2} equals {V1/V2} ");
+            Console.ReadLine();
+
+
 
 
         }

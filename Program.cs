@@ -22,12 +22,17 @@
             V1 = Convert.ToDouble(num1);
             V2 = Convert.ToDouble(num2);
 
+            Console.WriteLine($"{V1} plus {V2} equals {V1 + V2} ");
+            Console.WriteLine($"{V1} minus {V2} equals {V1 - V2} ");
+            Console.WriteLine($"{V1} times {V2} equals {V1*V2} ");
+            Console.WriteLine($"{V1} divide by {V2} equals {V1/V2} ");
+
 
         }
 
 
 
 
-            
+
     }
 }

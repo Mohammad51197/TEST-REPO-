@@ -18,9 +18,16 @@
             Console.WriteLine("Enter another number");
             num2 = Console.ReadLine();
 
+            Double V1, V2;
+            V1 = Convert.ToDouble(num1);
+            V2 = Convert.ToDouble(num2);
 
 
-            Console.ReadLine();
         }
+
+
+
+
+            
     }
 }
